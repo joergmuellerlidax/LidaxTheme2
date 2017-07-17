@@ -1,0 +1,19 @@
+    {
+		"version"				:"0.0.1",
+        "name"                  :"LidaxTheme",
+        "description"           :"Standard-Theme Lidax GmbH",
+        "namespace"             :"LidaxTheme",
+        "author"                :"Team Lidax",
+        "keywords"              : ["theme", "Ceres", "template"],
+        "type"                  :"theme",
+        "require"               : ["Ceres", "IO"],
+        "serviceProvider"       :"LidaxTheme\\Providers\\LidaxThemeServiceProvider",
+        "dataProviders"         :
+        [
+            {
+                "key"           :"LidaxTheme\\Containers\\LidaxThemeContainer",
+                "name"          :"LidaxTheme",
+                "description"   :"Lidax Theme"
+            }
+        ]
+    }
